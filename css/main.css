@@ -806,9 +806,15 @@ header .menu a.active:after {
     .contact form {
         margin: 40px auto 0;
     }
+    .products_item-img {
+        height: 230px;
+    }
 }
 
 @media (max-width: 788px) {
+    .products_item-img {
+        height: 210px;
+    }
     .contact form {
         margin: 20px auto 0;
     }
